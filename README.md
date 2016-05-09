@@ -48,4 +48,5 @@ Use the following commands to run Photon:
 * `docker-compose up` - runs Photon server in foreground
 * `docker-compose up -d` - runs Photon server in background
 * `docker-compose down` - stops server and removes Docker container (it will be recreated back when you start Photon again).
-* to see logs from the service running on background, use `docker-compose logs`. Run `docker-compose logs --help` for more help on other parameters.
+* to see logs from the service running on background, use `docker-compose logs`. Run `docker-compose logs --help` for more help on other parameters
+* `docker-compose ps` to see running services
