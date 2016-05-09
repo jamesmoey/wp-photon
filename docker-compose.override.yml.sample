@@ -1,8 +1,12 @@
 # See your /etc/hosts
 
-photon:
-  extra_hosts:
-    - "perthnow.local:10.86.73.80"
-    - "theaustralian.local:10.86.73.80"
-    - "foxsports.local:10.86.73.80"
-    - "ntnews.local:10.86.73.80"
+version: "2"
+
+services:
+
+  photon:
+    extra_hosts:
+      - "perthnow.local:10.86.73.80"
+      - "theaustralian.local:10.86.73.80"
+      - "foxsports.local:10.86.73.80"
+      - "ntnews.local:10.86.73.80"
