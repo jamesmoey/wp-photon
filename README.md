@@ -19,7 +19,7 @@ Switch to the project directory and run the following command: `docker-compose b
 
 See your `/etc/hosts` file: you will need an IP address used by Vagrant and configured host names.
 
-Copy `docker-compose.override.yml.sample` into `docker-compose.override.yml.sample` and updates hosts listed there.
+Copy `docker-compose.override.yml.sample` into `docker-compose.override.yml` and updates hosts listed there.
 
 **Note**: `extra_hosts` must be an array of "host:IP" mappings.
 
